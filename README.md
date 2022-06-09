@@ -1,3 +1,3 @@
 # rsschool-cv
-http://127.0.0.1:5500/index.html#code
+https://vilechuy.github.io/rsschool-cv/cv
 
