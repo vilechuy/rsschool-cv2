@@ -1,103 +1,75 @@
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .section {
-    width: 50%;
-  }
-.section-item a {
-    color: #829985;
-    text-decoration: none;  
-    transition: color 0.5s;
-  }
-  .section-item a:hover {
-    color: #4d2323;
-  }
-.nav-link {
-    transition: .3s;
-  }
-.nav-link {
-    padding: 0 20px;
-    line-height: 50px;
-  }
-.nav-list {
-    list-style: none;
-  }
-html {
-    scroll-behavior: smooth; 
-  }
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-.nav-list {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-* {
-    box-sizing: border-box;
-  }
-@font-face {
-    font-family: Roboto;
-     src: url("assets/fonts/Roboto.ttf");
-   }
-   @font-face {
-    font-family: 'Roboto';
-    src: url("assets/fonts/RobotoThin.ttf");
-    font-weight: 100;
-  }
-  @font-face {
-    font-family: 'Roboto';
-    src: url("assets/fonts/RobotoRegular.ttf");
-    font-weight: 300;
-    border: 1px solid red;
-    @media (max-width: 768px) {
-        .section {
-          width: 100%;
-        }
-      }
-    
-    
-  }
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
-    margin: 0; padding: 0;
-    font-family: 'Roboto';
-    
+h
 
-    font-family: 'Roboto', sans-serif;
+<body>
+<div class="container">
+<header class="header">
+<img src="./assets/log/avatar.jfif" alt="avatar" width="250" height="250" />
 
+<div class="right-side">
+<nav class="navbar">
+<ul class="navbar-links">
+<li><a href="#about">About me</a><li>
+<li><a href="#code">my code</a><li>
+<li><a href="#projects">Projects</a><li>
+<li><a href="#Education">Education</a><li>
+<li><a href="#languages">Languages</a><li>
+</ul>
+</nav>
 
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    
-    font-family: 'Roboto', sans-serif;
-    font-weight:100
+<div>
+<h1 class="flo>"Viktor Chuykov</h1>
+<h2 class="profession"Frontend developer</h2>
+</div>
 
-    header class = "header"
-    header class = "main-header"
-    header class = "footer-header"
+<div></div>
+</div>
+</header>
 
-    nav class="nav"
-  ul class="nav-list"
-    li class="nav-item"a href="#contacts" class="nav-link"Contacts/a/li
-    li class="nav-item"a href="#summary" class="nav-link"Summary/a/li
-    li class="nav-item"a href="#skills" class="nav-link"Skills/a/li
-  /ul
-/nav
-section class="section" id="profile"
-         
-/section
+<main class="main">
+<aside class="sidebar">
+<div class="section contacts">
+<h2>Contacts</h2>
+<ul>
+<li>
+<a href="mailto:chuy.87@yandex.ru">Email</a>
+</li>
+</ul>
+</div>
 
+<div class="selection skills">
+<h2>Skills</h2>
+<ul>
+<li>- java<li>
+</ul>
+</div>
+</aside>
 
-      
-    
-    
-   
-}
+<div class="content">
+<div id="about" class="section about me">
+<h2>About me</h2>
+<p>
+i like programming
+</p>
+</div>
+
+<div id="code" class="section code">
+<h2>This is example</h2>
+</p>
+<pre>
+<code>
+it is mine
+</code>
+</pre>
+<div>
+</main>
+
+<footer class="footer">
+<div><a> href="https://vilechuy.github.io/rsschool-cv/cv">Github</a></div>
+<div><a href="https://rs.school/js"><img src="./assets/img/rs_school_js.svg" alt="logo-rs-school"
+height="50" /></a></div>
+<div>2022</div>
+</footer>
+</div>
+</body>
+
+</header>  
