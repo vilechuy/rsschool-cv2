@@ -1,5 +1,6 @@
 * {
 
+
   padding: 0;
   margin: 0;
 }
@@ -16,6 +17,7 @@ a {
   background: linear-gradient(to botom, #b3801225 0%, #b3801225 100%);
   background-position: 0 100%;
   background-repeat: repeat-x;
+
 
     padding: 0;
     margin: 0;
@@ -41,6 +43,7 @@ text-transform: uppercase;
 }
 
 a:hover {
+
 
   background-image: url(F:\Downloads);
   background-position: 0 100%;
@@ -78,6 +81,7 @@ body {
 .header > .right.side > {
   display: flex;
 
+
     background-image: url(F:\Downloads);
     background-position: 0 100%;
     background-size: auto 6px;
@@ -114,11 +118,13 @@ body {
 .header > .right.side > {
     display: flex;
 
+
 flex-direction: column;
 justify-content: space-between;
 }
 
 .header h1 {
+
 
   font-size: 72px;
 }
@@ -137,6 +143,7 @@ justify-content: space-between;
   width: 250px;
   background-color: #211a2a;
   color: white;
+
 
     font-size: 72px;
 }
@@ -163,6 +170,7 @@ color: #96ab5d
 }
 
 .main > .sidebar a {
+
 
   color:beige
 }
@@ -205,6 +213,7 @@ pre{
     
    
 
+
     color:beige
 }
 
@@ -240,6 +249,4 @@ pre{
     margin: 8px 0;
     background-color: #96ab5d;
     border: 1px solid white;
-}
-
 
