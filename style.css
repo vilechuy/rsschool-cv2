@@ -1,75 +1,124 @@
-h
+* {
+    padding: 0;
+    margin: 0;
+}
 
-<body>
-<div class="container">
-<header class="header">
-<img src="./assets/log/avatar.jfif" alt="avatar" width="250" height="250" />
+ul {
+    list-style-type: none;
+}
 
-<div class="right-side">
-<nav class="navbar">
-<ul class="navbar-links">
-<li><a href="#about">About me</a><li>
-<li><a href="#code">my code</a><li>
-<li><a href="#projects">Projects</a><li>
-<li><a href="#Education">Education</a><li>
-<li><a href="#languages">Languages</a><li>
-</ul>
-</nav>
+h1, h2, h3, h5, h6 {
+    color:darkolivegreen
+}
 
-<div>
-<h1 class="flo>"Viktor Chuykov</h1>
-<h2 class="profession"Frontend developer</h2>
-</div>
+a {
+    background: linear-gradient(to botom, #b3801225 0%, #b3801225 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+background-size: 3px 3px;
+color:rgb(53, 145,182);
+text-decoration: none;
+text-transform: uppercase;
+}
 
-<div></div>
-</div>
-</header>
+a:hover {
+    background-image: url(F:\Downloads);
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    color: blueviolet;
+    text-decoration: none;
+}
 
-<main class="main">
-<aside class="sidebar">
-<div class="section contacts">
-<h2>Contacts</h2>
-<ul>
-<li>
-<a href="mailto:chuy.87@yandex.ru">Email</a>
-</li>
-</ul>
-</div>
+body {
+    background-color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+}
 
-<div class="selection skills">
-<h2>Skills</h2>
-<ul>
-<li>- java<li>
-</ul>
-</div>
-</aside>
+.container {
+    width: 960px;
+    margin: 32px auto;
+    background: linear-gradient(to bottom,white, rgba(52, 129, 231, 0.8));
+    box-shadow: rgba(36, 74, 125, 0.8),0px 2px 1px -1px,  rgba(red, green, blue, alpha),0px 1px 1px 0px, rgba(rgb(68, 55, 55), rgb(114, 15, 15), rgb(198, 205, 182), alpha), 0px 1px 3px 0px; 
+}
 
-<div class="content">
-<div id="about" class="section about me">
-<h2>About me</h2>
-<p>
-i like programming
-</p>
-</div>
+.container:hover{
+    box-shadow: 2px 4px 3px rgba(36, 74, 125, 0.8),0px 1px 1px 0px rgba(red, green, blue, alpha), 0px 1px 3px 0px, rgba(rgb(68, 55, 55), rgb(114, 15, 15), rgb(198, 205, 182), alpha);
+}
 
-<div id="code" class="section code">
-<h2>This is example</h2>
-</p>
-<pre>
-<code>
-it is mine
-</code>
-</pre>
-<div>
-</main>
+.header {
+    display: flex;
+}
 
-<footer class="footer">
-<div><a> href="https://vilechuy.github.io/rsschool-cv/cv">Github</a></div>
-<div><a href="https://rs.school/js"><img src="./assets/img/rs_school_js.svg" alt="logo-rs-school"
-height="50" /></a></div>
-<div>2022</div>
-</footer>
-</div>
-</body>
+.header > .right.side> .navbar >.navbar-links {
+    display: flex;
+    justify-content: space-between;
+}
 
-</header>  
+.header > .right.side > {
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.header h1 {
+    font-size: 72px;
+}
+
+.header > .right.side {
+    padding: 16px;
+}
+
+.main {
+    border-top: 1px solid #211a2a;
+    display: flex;
+}
+
+.main .sidebar {
+    flex: 0 0 auto;
+    width: 250px;
+    background-color: #211a2a;
+    color: white;
+}
+
+.main > .sidebar h2{
+color: #96ab5d
+}
+
+.main > .sidebar a {
+    color:beige
+}
+
+.section {
+    margin: 16px;
+    width: 90%;
+}
+
+.section > ul >li {
+    margin: 4px 0px 4px 8px;
+}
+
+.main > .content{
+    display:flex;
+    flex-direction: column;
+}
+
+.footer{
+    width:100%;
+    padding: 16px 0;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex:auto;
+    border-top: 1px solid #211a2a;
+}
+
+.footer a {
+    color:black
+}
+
+pre{
+    margin: 8px 0;
+    background-color: #96ab5d;
+    border: 1px solid white;
+}
